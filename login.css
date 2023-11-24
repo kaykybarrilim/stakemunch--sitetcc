@@ -1,0 +1,95 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.item {
+    border: 0px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 70%;
+    padding: 50px;
+}
+
+.price {
+    display: block;
+    color: #f90;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff9900;
+    color: #080604;
+}
+.novos {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff9900;
+    color: #080604;
+}
+.cabecalho{
+    text-align: center;
+    padding: 10px;
+    background-color: #ff9900;
+    color: #080604;
+}
+.fonte{
+    font-size:45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nomecombo{
+    text-align: center;
+}
+.fonte1{
+    font-size:40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.aa{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bb{
+    color: #ff0000;
+    text-align: center;
+}

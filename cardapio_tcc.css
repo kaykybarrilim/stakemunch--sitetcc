@@ -1,0 +1,103 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.item {
+    border: 0px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 70%;
+    padding: 50px;
+}
+
+.price {
+    display: block;
+    color: #f90;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff9900;
+    color: #080604;
+}
+.novos {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff9900;
+    color: #080604;
+}
+.cabecalho{
+    text-align: center; 
+    padding: 10px;
+    background-color: #ff9900;
+    color: #080604;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+    ;
+}
+.fonte{
+    font-size:45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-align: center;
+}
+.nomecombo{
+    text-align: center;
+}
+.lchpp{
+    text-align: left;
+
+}
+.btnenviar{
+	
+	background-color: #ffae00;
+	color: black;
+	padding: 8px 20px;
+	text-decoration: none;
+	border-radius: 5px;	
+	font-weight: bold;
+}
+.btnenviar:hover{
+    background:#ffca56;
+    transition: 1s;
+}
